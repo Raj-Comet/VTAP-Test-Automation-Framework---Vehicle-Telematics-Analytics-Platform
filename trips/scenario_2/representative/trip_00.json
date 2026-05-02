@@ -1,0 +1,733 @@
+{
+  "tripId": "bus_scenario2_rep_00",
+  "startCity": "Bengaluru",
+  "endCity": "Bengaluru",
+  "startTimeUtc": "2024-03-17T08:00:00Z",
+  "vehicle": {
+    "vehicleId": "BUS_000",
+    "vehicleType": "BUS",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-17T08:00:00Z",
+      "lat": 12.96706,
+      "lng": 77.59163,
+      "speedKmH": 37.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:01:00Z",
+      "lat": 12.96348,
+      "lng": 77.59523,
+      "speedKmH": 26.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:02:00Z",
+      "lat": 12.9586,
+      "lng": 77.59463,
+      "speedKmH": 24.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:03:00Z",
+      "lat": 12.95376,
+      "lng": 77.59242,
+      "speedKmH": 31.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:04:00Z",
+      "lat": 12.95376,
+      "lng": 77.59242,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:05:00Z",
+      "lat": 12.95069,
+      "lng": 77.59594,
+      "speedKmH": 27.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:06:00Z",
+      "lat": 12.9527,
+      "lng": 77.59445,
+      "speedKmH": 22.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:07:00Z",
+      "lat": 12.95204,
+      "lng": 77.59631,
+      "speedKmH": 32.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:08:00Z",
+      "lat": 12.95347,
+      "lng": 77.59253,
+      "speedKmH": 23.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:09:00Z",
+      "lat": 12.95347,
+      "lng": 77.59253,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:10:00Z",
+      "lat": 12.94977,
+      "lng": 77.59244,
+      "speedKmH": 41.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:11:00Z",
+      "lat": 12.9486,
+      "lng": 77.59565,
+      "speedKmH": 22.8,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:12:00Z",
+      "lat": 12.94585,
+      "lng": 77.59738,
+      "speedKmH": 39.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:13:00Z",
+      "lat": 12.94879,
+      "lng": 77.59384,
+      "speedKmH": 33.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:14:00Z",
+      "lat": 12.94879,
+      "lng": 77.59384,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:15:00Z",
+      "lat": 12.94616,
+      "lng": 77.59633,
+      "speedKmH": 34.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:16:00Z",
+      "lat": 12.94805,
+      "lng": 77.59917,
+      "speedKmH": 44.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:17:00Z",
+      "lat": 12.94771,
+      "lng": 77.60412,
+      "speedKmH": 27.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:18:00Z",
+      "lat": 12.95153,
+      "lng": 77.60017,
+      "speedKmH": 37.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:19:00Z",
+      "lat": 12.95153,
+      "lng": 77.60017,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:20:00Z",
+      "lat": 12.95549,
+      "lng": 77.60072,
+      "speedKmH": 29.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:21:00Z",
+      "lat": 12.95875,
+      "lng": 77.60387,
+      "speedKmH": 37.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:22:00Z",
+      "lat": 12.9572,
+      "lng": 77.60402,
+      "speedKmH": 20.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:23:00Z",
+      "lat": 12.95749,
+      "lng": 77.6021,
+      "speedKmH": 36.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:24:00Z",
+      "lat": 12.95749,
+      "lng": 77.6021,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:25:00Z",
+      "lat": 12.95269,
+      "lng": 77.60157,
+      "speedKmH": 22.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:26:00Z",
+      "lat": 12.95114,
+      "lng": 77.60636,
+      "speedKmH": 39.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:27:00Z",
+      "lat": 12.95259,
+      "lng": 77.605,
+      "speedKmH": 22.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:28:00Z",
+      "lat": 12.9479,
+      "lng": 77.60545,
+      "speedKmH": 44.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:29:00Z",
+      "lat": 12.9479,
+      "lng": 77.60545,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:30:00Z",
+      "lat": 12.95026,
+      "lng": 77.60257,
+      "speedKmH": 44.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:31:00Z",
+      "lat": 12.94751,
+      "lng": 77.59804,
+      "speedKmH": 32.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:32:00Z",
+      "lat": 12.947,
+      "lng": 77.59372,
+      "speedKmH": 43.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:33:00Z",
+      "lat": 12.94491,
+      "lng": 77.59265,
+      "speedKmH": 21.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:34:00Z",
+      "lat": 12.94491,
+      "lng": 77.59265,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:35:00Z",
+      "lat": 12.94005,
+      "lng": 77.59713,
+      "speedKmH": 44.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:36:00Z",
+      "lat": 12.94128,
+      "lng": 77.59263,
+      "speedKmH": 23.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:37:00Z",
+      "lat": 12.93765,
+      "lng": 77.58774,
+      "speedKmH": 39.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:38:00Z",
+      "lat": 12.93719,
+      "lng": 77.58304,
+      "speedKmH": 26.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:39:00Z",
+      "lat": 12.93719,
+      "lng": 77.58304,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:40:00Z",
+      "lat": 12.93679,
+      "lng": 77.58323,
+      "speedKmH": 33.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:41:00Z",
+      "lat": 12.93313,
+      "lng": 77.58622,
+      "speedKmH": 22.4,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:42:00Z",
+      "lat": 12.93255,
+      "lng": 77.58852,
+      "speedKmH": 22.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:43:00Z",
+      "lat": 12.92776,
+      "lng": 77.5934,
+      "speedKmH": 37.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:44:00Z",
+      "lat": 12.92776,
+      "lng": 77.5934,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:45:00Z",
+      "lat": 12.92468,
+      "lng": 77.595,
+      "speedKmH": 22.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:46:00Z",
+      "lat": 12.92794,
+      "lng": 77.59039,
+      "speedKmH": 22.8,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:47:00Z",
+      "lat": 12.92517,
+      "lng": 77.59165,
+      "speedKmH": 41.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:48:00Z",
+      "lat": 12.9226,
+      "lng": 77.5944,
+      "speedKmH": 30.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:49:00Z",
+      "lat": 12.9226,
+      "lng": 77.5944,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:50:00Z",
+      "lat": 12.92218,
+      "lng": 77.59617,
+      "speedKmH": 26.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:51:00Z",
+      "lat": 12.92427,
+      "lng": 77.59461,
+      "speedKmH": 24.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:52:00Z",
+      "lat": 12.92568,
+      "lng": 77.59474,
+      "speedKmH": 21.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:53:00Z",
+      "lat": 12.93013,
+      "lng": 77.59742,
+      "speedKmH": 31.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:54:00Z",
+      "lat": 12.93013,
+      "lng": 77.59742,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T08:55:00Z",
+      "lat": 12.93307,
+      "lng": 77.60007,
+      "speedKmH": 20.8,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:56:00Z",
+      "lat": 12.92866,
+      "lng": 77.59998,
+      "speedKmH": 30.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:57:00Z",
+      "lat": 12.93043,
+      "lng": 77.5966,
+      "speedKmH": 23.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:58:00Z",
+      "lat": 12.92922,
+      "lng": 77.60147,
+      "speedKmH": 20.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T08:59:00Z",
+      "lat": 12.92922,
+      "lng": 77.60147,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:00:00Z",
+      "lat": 12.93376,
+      "lng": 77.60241,
+      "speedKmH": 28.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:01:00Z",
+      "lat": 12.92973,
+      "lng": 77.60181,
+      "speedKmH": 30.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:02:00Z",
+      "lat": 12.92528,
+      "lng": 77.60083,
+      "speedKmH": 43.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:03:00Z",
+      "lat": 12.92984,
+      "lng": 77.60287,
+      "speedKmH": 29.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:04:00Z",
+      "lat": 12.92984,
+      "lng": 77.60287,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:05:00Z",
+      "lat": 12.93348,
+      "lng": 77.59828,
+      "speedKmH": 37.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:06:00Z",
+      "lat": 12.93553,
+      "lng": 77.59476,
+      "speedKmH": 29.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:07:00Z",
+      "lat": 12.93468,
+      "lng": 77.59768,
+      "speedKmH": 34.8,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:08:00Z",
+      "lat": 12.93209,
+      "lng": 77.60087,
+      "speedKmH": 32.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:09:00Z",
+      "lat": 12.93209,
+      "lng": 77.60087,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:10:00Z",
+      "lat": 12.9349,
+      "lng": 77.59944,
+      "speedKmH": 28.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:11:00Z",
+      "lat": 12.93324,
+      "lng": 77.59607,
+      "speedKmH": 39.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:12:00Z",
+      "lat": 12.93481,
+      "lng": 77.595,
+      "speedKmH": 35.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:13:00Z",
+      "lat": 12.93668,
+      "lng": 77.59961,
+      "speedKmH": 23.4,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:14:00Z",
+      "lat": 12.93668,
+      "lng": 77.59961,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:15:00Z",
+      "lat": 12.93265,
+      "lng": 77.60347,
+      "speedKmH": 43.6,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:16:00Z",
+      "lat": 12.93489,
+      "lng": 77.60385,
+      "speedKmH": 43.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:17:00Z",
+      "lat": 12.93874,
+      "lng": 77.59978,
+      "speedKmH": 37.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:18:00Z",
+      "lat": 12.94181,
+      "lng": 77.59753,
+      "speedKmH": 40.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:19:00Z",
+      "lat": 12.94181,
+      "lng": 77.59753,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:20:00Z",
+      "lat": 12.94592,
+      "lng": 77.59749,
+      "speedKmH": 30.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:21:00Z",
+      "lat": 12.94676,
+      "lng": 77.60057,
+      "speedKmH": 36.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:22:00Z",
+      "lat": 12.95165,
+      "lng": 77.60047,
+      "speedKmH": 28.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:23:00Z",
+      "lat": 12.94812,
+      "lng": 77.60264,
+      "speedKmH": 33.9,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:24:00Z",
+      "lat": 12.94812,
+      "lng": 77.60264,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-17T09:25:00Z",
+      "lat": 12.94918,
+      "lng": 77.60759,
+      "speedKmH": 41.4,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:26:00Z",
+      "lat": 12.9517,
+      "lng": 77.60883,
+      "speedKmH": 26.7,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:27:00Z",
+      "lat": 12.95179,
+      "lng": 77.60706,
+      "speedKmH": 32.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:28:00Z",
+      "lat": 12.95667,
+      "lng": 77.60771,
+      "speedKmH": 40.2,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-17T09:29:00Z",
+      "lat": 12.95667,
+      "lng": 77.60771,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    }
+  ]
+}

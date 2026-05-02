@@ -1,0 +1,29 @@
+{
+  "tripId": "truck_scenario1_adv_dup_ts",
+  "startCity": "Mumbai",
+  "endCity": "Surat",
+  "startTimeUtc": "2024-03-16T12:00:00Z",
+  "vehicle": {
+    "vehicleId": "TRUCK_ADV7",
+    "vehicleType": "TRUCK",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-16T12:00:00Z",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T12:00:00Z",
+      "lat": 19.276,
+      "lng": 72.7777,
+      "speedKmH": 80,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    }
+  ]
+}

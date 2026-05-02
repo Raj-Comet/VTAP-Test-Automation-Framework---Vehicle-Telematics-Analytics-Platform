@@ -1,0 +1,109 @@
+{
+  "tripId": "car_scenario3_boundary_exp_120_00",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T18:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_B2_0",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T18:00:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:05:00Z",
+      "lat": 17.4,
+      "lng": 78.5017,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:10:00Z",
+      "lat": 17.415,
+      "lng": 78.5167,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:15:00Z",
+      "lat": 17.43,
+      "lng": 78.5317,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:20:00Z",
+      "lat": 17.445,
+      "lng": 78.5467,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:25:00Z",
+      "lat": 17.46,
+      "lng": 78.5617,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:30:00Z",
+      "lat": 17.475,
+      "lng": 78.5767,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:35:00Z",
+      "lat": 17.49,
+      "lng": 78.5917,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:40:00Z",
+      "lat": 17.505,
+      "lng": 78.6067,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:45:00Z",
+      "lat": 17.52,
+      "lng": 78.6217,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:50:00Z",
+      "lat": 17.535,
+      "lng": 78.6367,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T18:55:00Z",
+      "lat": 17.55,
+      "lng": 78.6517,
+      "speedKmH": 120.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    }
+  ]
+}

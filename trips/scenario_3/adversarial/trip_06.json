@@ -1,0 +1,93 @@
+{
+  "tripId": "car_scenario3_adv_all_stops_6",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T14:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_ADV6",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T14:00:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:01:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:02:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:03:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:04:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:05:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:06:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:07:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:08:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    },
+    {
+      "ts": "2024-03-19T14:09:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    }
+  ]
+}

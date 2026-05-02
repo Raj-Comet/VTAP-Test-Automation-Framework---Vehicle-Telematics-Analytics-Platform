@@ -1,0 +1,157 @@
+{
+  "tripId": "bus_scenario2_boundary_speed_51_01",
+  "startCity": "Bengaluru",
+  "endCity": "Bengaluru",
+  "startTimeUtc": "2024-03-18T02:00:00Z",
+  "vehicle": {
+    "vehicleId": "BUS_B2_1",
+    "vehicleType": "BUS",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-18T02:00:00Z",
+      "lat": 12.97119,
+      "lng": 77.5958,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:05:00Z",
+      "lat": 12.97557,
+      "lng": 77.59844,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:10:00Z",
+      "lat": 12.97854,
+      "lng": 77.60327,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:15:00Z",
+      "lat": 12.98262,
+      "lng": 77.60848,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:20:00Z",
+      "lat": 12.98657,
+      "lng": 77.61245,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:25:00Z",
+      "lat": 12.98998,
+      "lng": 77.61439,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:30:00Z",
+      "lat": 12.99581,
+      "lng": 77.6204,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:35:00Z",
+      "lat": 13.00098,
+      "lng": 77.62184,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:40:00Z",
+      "lat": 13.00413,
+      "lng": 77.62803,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:45:00Z",
+      "lat": 13.0063,
+      "lng": 77.63187,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:50:00Z",
+      "lat": 13.01285,
+      "lng": 77.63646,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T02:55:00Z",
+      "lat": 13.01448,
+      "lng": 77.63955,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:00:00Z",
+      "lat": 13.01943,
+      "lng": 77.64442,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:05:00Z",
+      "lat": 13.02468,
+      "lng": 77.64467,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:10:00Z",
+      "lat": 13.02937,
+      "lng": 77.6519,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:15:00Z",
+      "lat": 13.03074,
+      "lng": 77.65646,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:20:00Z",
+      "lat": 13.03425,
+      "lng": 77.66036,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T03:25:00Z",
+      "lat": 13.03998,
+      "lng": 77.6607,
+      "speedKmH": 51.0,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    }
+  ]
+}

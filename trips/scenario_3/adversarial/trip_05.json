@@ -1,0 +1,37 @@
+{
+  "tripId": "car_scenario3_adv_duration_5",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T14:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_ADV5",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T14:00:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T14:01:00Z",
+      "lat": 17.386000000000003,
+      "lng": 78.4877,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T14:02:00Z",
+      "lat": 17.387,
+      "lng": 78.4887,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    }
+  ]
+}

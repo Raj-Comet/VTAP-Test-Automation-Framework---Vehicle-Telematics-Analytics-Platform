@@ -1,0 +1,29 @@
+{
+  "tripId": "bus_scenario2_adv_minimal_3",
+  "startCity": "Bengaluru",
+  "endCity": "Bengaluru",
+  "startTimeUtc": "2024-03-18T08:00:00Z",
+  "vehicle": {
+    "vehicleId": "BUS_ADV_MIN3",
+    "vehicleType": "BUS",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-18T08:00:00Z",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "speedKmH": 35,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-18T08:05:00Z",
+      "lat": 12.9816,
+      "lng": 77.6046,
+      "speedKmH": 35,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    }
+  ]
+}

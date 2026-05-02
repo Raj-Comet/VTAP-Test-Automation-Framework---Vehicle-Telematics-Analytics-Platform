@@ -1,0 +1,12 @@
+{
+  "tripId": "car_scenario3_adv_zero_timeline_8",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T14:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_ADV8",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": []
+}

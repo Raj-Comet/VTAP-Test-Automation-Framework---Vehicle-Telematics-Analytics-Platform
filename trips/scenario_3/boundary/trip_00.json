@@ -1,0 +1,109 @@
+{
+  "tripId": "car_scenario3_boundary_sh_80_00",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T08:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_B1_0",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T08:00:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:05:00Z",
+      "lat": 17.395,
+      "lng": 78.4967,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:10:00Z",
+      "lat": 17.405,
+      "lng": 78.5067,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:15:00Z",
+      "lat": 17.415,
+      "lng": 78.5167,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:20:00Z",
+      "lat": 17.425,
+      "lng": 78.5267,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:25:00Z",
+      "lat": 17.435,
+      "lng": 78.5367,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:30:00Z",
+      "lat": 17.445,
+      "lng": 78.5467,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:35:00Z",
+      "lat": 17.455,
+      "lng": 78.5567,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:40:00Z",
+      "lat": 17.465,
+      "lng": 78.5667,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:45:00Z",
+      "lat": 17.475,
+      "lng": 78.5767,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:50:00Z",
+      "lat": 17.485,
+      "lng": 78.5867,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-19T08:55:00Z",
+      "lat": 17.495,
+      "lng": 78.5967,
+      "speedKmH": 80.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    }
+  ]
+}

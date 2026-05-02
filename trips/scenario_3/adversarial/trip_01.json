@@ -1,0 +1,20 @@
+{
+  "tripId": "car_scenario3_adv_missing_end_1",
+  "startCity": "Hyderabad",
+  "startTimeUtc": "2024-03-19T14:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_ADV1",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T14:00:00Z",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    }
+  ]
+}

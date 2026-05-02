@@ -1,0 +1,20 @@
+{
+  "tripId": "car_scenario3_adv_missing_lng_3",
+  "startCity": "Hyderabad",
+  "endCity": "Vijayawada",
+  "startTimeUtc": "2024-03-19T14:00:00Z",
+  "vehicle": {
+    "vehicleId": "CAR_ADV3",
+    "vehicleType": "CAR",
+    "fuelType": "PETROL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-19T14:00:00Z",
+      "lat": 17.385,
+      "speedKmH": 50,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    }
+  ]
+}

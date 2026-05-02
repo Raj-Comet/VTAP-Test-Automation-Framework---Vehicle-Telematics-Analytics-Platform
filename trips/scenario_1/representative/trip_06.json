@@ -1,0 +1,1181 @@
+{
+  "tripId": "truck_scenario1_rep_06",
+  "startCity": "Mumbai",
+  "endCity": "Delhi",
+  "startTimeUtc": "2024-03-15T20:00:00Z",
+  "vehicle": {
+    "vehicleId": "TRUCK_006",
+    "vehicleType": "TRUCK",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-15T20:02:53.368182Z",
+      "lat": 19.06864,
+      "lng": 72.88193,
+      "speedKmH": 28.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:07:53.368182Z",
+      "lat": 19.08477,
+      "lng": 72.87155,
+      "speedKmH": 41.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:12:53.368182Z",
+      "lat": 19.06931,
+      "lng": 72.88702,
+      "speedKmH": 44.5,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:17:53.368182Z",
+      "lat": 19.06815,
+      "lng": 72.88069,
+      "speedKmH": 26.1,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:22:53.368182Z",
+      "lat": 19.07623,
+      "lng": 72.88471,
+      "speedKmH": 24.3,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:27:53.368182Z",
+      "lat": 19.07034,
+      "lng": 72.86917,
+      "speedKmH": 21.8,
+      "roadType": "CITY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:32:53.368182Z",
+      "lat": 19.091,
+      "lng": 72.87335,
+      "speedKmH": 71.9,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:37:53.368182Z",
+      "lat": 19.10679,
+      "lng": 72.87087,
+      "speedKmH": 75.1,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:42:53.368182Z",
+      "lat": 19.12035,
+      "lng": 72.87007,
+      "speedKmH": 74.1,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:47:53.368182Z",
+      "lat": 19.13659,
+      "lng": 72.86744,
+      "speedKmH": 78.6,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:52:53.368182Z",
+      "lat": 19.15013,
+      "lng": 72.86125,
+      "speedKmH": 79.8,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T20:57:53.368182Z",
+      "lat": 19.1647,
+      "lng": 72.85931,
+      "speedKmH": 82.2,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:02:53.368182Z",
+      "lat": 19.18213,
+      "lng": 72.85581,
+      "speedKmH": 75.5,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:07:53.368182Z",
+      "lat": 19.19516,
+      "lng": 72.85287,
+      "speedKmH": 77.5,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:12:53.368182Z",
+      "lat": 19.20947,
+      "lng": 72.84916,
+      "speedKmH": 72.2,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:17:53.368182Z",
+      "lat": 19.22532,
+      "lng": 72.84784,
+      "speedKmH": 74.8,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:22:53.368182Z",
+      "lat": 19.24072,
+      "lng": 72.8458,
+      "speedKmH": 81.7,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:27:53.368182Z",
+      "lat": 19.25569,
+      "lng": 72.84325,
+      "speedKmH": 70.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:32:53.368182Z",
+      "lat": 19.27133,
+      "lng": 72.83943,
+      "speedKmH": 76.1,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:37:53.368182Z",
+      "lat": 19.28571,
+      "lng": 72.83474,
+      "speedKmH": 81.5,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:42:53.368182Z",
+      "lat": 19.29977,
+      "lng": 72.83296,
+      "speedKmH": 80.7,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:47:53.368182Z",
+      "lat": 19.31732,
+      "lng": 72.83141,
+      "speedKmH": 72.5,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:52:53.368182Z",
+      "lat": 19.32962,
+      "lng": 72.82581,
+      "speedKmH": 82.4,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T21:57:53.368182Z",
+      "lat": 19.34632,
+      "lng": 72.82463,
+      "speedKmH": 76.5,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:02:53.368182Z",
+      "lat": 19.36111,
+      "lng": 72.82262,
+      "speedKmH": 75.9,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:07:53.368182Z",
+      "lat": 19.37572,
+      "lng": 72.81832,
+      "speedKmH": 83.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:12:53.368182Z",
+      "lat": 19.39261,
+      "lng": 72.81482,
+      "speedKmH": 70.6,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:17:53.368182Z",
+      "lat": 19.40438,
+      "lng": 72.80981,
+      "speedKmH": 70.0,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:22:53.368182Z",
+      "lat": 19.42157,
+      "lng": 72.80817,
+      "speedKmH": 71.4,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:27:53.368182Z",
+      "lat": 19.43723,
+      "lng": 72.8061,
+      "speedKmH": 77.7,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:32:53.368182Z",
+      "lat": 19.45236,
+      "lng": 72.80109,
+      "speedKmH": 76.8,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:37:53.368182Z",
+      "lat": 19.46634,
+      "lng": 72.79963,
+      "speedKmH": 73.3,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:42:53.368182Z",
+      "lat": 19.48211,
+      "lng": 72.79813,
+      "speedKmH": 84.9,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:47:53.368182Z",
+      "lat": 19.49641,
+      "lng": 72.79249,
+      "speedKmH": 73.6,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:52:53.368182Z",
+      "lat": 19.50913,
+      "lng": 72.79264,
+      "speedKmH": 76.4,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T22:57:53.368182Z",
+      "lat": 19.52509,
+      "lng": 72.78578,
+      "speedKmH": 74.7,
+      "roadType": "STATE_HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T23:02:53.368182Z",
+      "lat": 21.14769,
+      "lng": 72.83306,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:07:53.368182Z",
+      "lat": 21.14414,
+      "lng": 72.83132,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:12:53.368182Z",
+      "lat": 21.14756,
+      "lng": 72.83167,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:17:53.368182Z",
+      "lat": 21.14687,
+      "lng": 72.83301,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:22:53.368182Z",
+      "lat": 21.14408,
+      "lng": 72.83389,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:27:53.368182Z",
+      "lat": 21.14717,
+      "lng": 72.83411,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:32:53.368182Z",
+      "lat": 21.14422,
+      "lng": 72.83135,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:37:53.368182Z",
+      "lat": 21.14509,
+      "lng": 72.83368,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FUEL"
+    },
+    {
+      "ts": "2024-03-15T23:42:53.368182Z",
+      "lat": 19.53126,
+      "lng": 72.79757,
+      "speedKmH": 95.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T23:47:53.368182Z",
+      "lat": 19.53429,
+      "lng": 72.80406,
+      "speedKmH": 81.7,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T23:52:53.368182Z",
+      "lat": 19.54228,
+      "lng": 72.80974,
+      "speedKmH": 85.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-15T23:57:53.368182Z",
+      "lat": 19.54647,
+      "lng": 72.82102,
+      "speedKmH": 82.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:02:53.368182Z",
+      "lat": 19.5523,
+      "lng": 72.82608,
+      "speedKmH": 87.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:07:53.368182Z",
+      "lat": 19.55709,
+      "lng": 72.83552,
+      "speedKmH": 93.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:12:53.368182Z",
+      "lat": 19.56087,
+      "lng": 72.84434,
+      "speedKmH": 95.8,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:17:53.368182Z",
+      "lat": 19.56592,
+      "lng": 72.85046,
+      "speedKmH": 80.3,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:22:53.368182Z",
+      "lat": 19.57083,
+      "lng": 72.85858,
+      "speedKmH": 86.2,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:27:53.368182Z",
+      "lat": 19.57479,
+      "lng": 72.86644,
+      "speedKmH": 99.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:32:53.368182Z",
+      "lat": 19.58034,
+      "lng": 72.87736,
+      "speedKmH": 80.7,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:37:53.368182Z",
+      "lat": 19.58614,
+      "lng": 72.88526,
+      "speedKmH": 92.3,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:42:53.368182Z",
+      "lat": 19.58986,
+      "lng": 72.89237,
+      "speedKmH": 91.0,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:47:53.368182Z",
+      "lat": 19.5961,
+      "lng": 72.89992,
+      "speedKmH": 93.7,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:52:53.368182Z",
+      "lat": 19.60216,
+      "lng": 72.90589,
+      "speedKmH": 99.4,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T00:57:53.368182Z",
+      "lat": 19.60647,
+      "lng": 72.9152,
+      "speedKmH": 82.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T01:02:53.368182Z",
+      "lat": 19.6099,
+      "lng": 72.92196,
+      "speedKmH": 95.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T01:07:53.368182Z",
+      "lat": 19.61488,
+      "lng": 72.93009,
+      "speedKmH": 89.0,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T01:12:53.368182Z",
+      "lat": 22.30807,
+      "lng": 73.17987,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:17:53.368182Z",
+      "lat": 22.30854,
+      "lng": 73.18307,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:22:53.368182Z",
+      "lat": 22.3079,
+      "lng": 73.17951,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:27:53.368182Z",
+      "lat": 22.30826,
+      "lng": 73.18267,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:32:53.368182Z",
+      "lat": 22.30688,
+      "lng": 73.18271,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:37:53.368182Z",
+      "lat": 22.30658,
+      "lng": 73.17949,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "FOOD"
+    },
+    {
+      "ts": "2024-03-16T01:42:53.368182Z",
+      "lat": 22.30856,
+      "lng": 73.18023,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T01:47:53.368182Z",
+      "lat": 22.30875,
+      "lng": 73.18205,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T01:52:53.368182Z",
+      "lat": 22.30686,
+      "lng": 73.18157,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T01:57:53.368182Z",
+      "lat": 22.30736,
+      "lng": 73.18054,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T02:02:53.368182Z",
+      "lat": 22.30839,
+      "lng": 73.18253,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T02:07:53.368182Z",
+      "lat": 22.30603,
+      "lng": 73.18166,
+      "speedKmH": 0.0,
+      "roadType": "CITY",
+      "status": "RESTROOM"
+    },
+    {
+      "ts": "2024-03-16T02:12:53.368182Z",
+      "lat": 19.621,
+      "lng": 72.93389,
+      "speedKmH": 96.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:17:53.368182Z",
+      "lat": 19.62699,
+      "lng": 72.9324,
+      "speedKmH": 99.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:22:53.368182Z",
+      "lat": 19.63257,
+      "lng": 72.93394,
+      "speedKmH": 99.3,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:27:53.368182Z",
+      "lat": 19.63431,
+      "lng": 72.93684,
+      "speedKmH": 97.2,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:32:53.368182Z",
+      "lat": 19.64255,
+      "lng": 72.93641,
+      "speedKmH": 93.4,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:37:53.368182Z",
+      "lat": 19.64724,
+      "lng": 72.93891,
+      "speedKmH": 95.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:42:53.368182Z",
+      "lat": 19.64932,
+      "lng": 72.93832,
+      "speedKmH": 88.8,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:47:53.368182Z",
+      "lat": 19.65796,
+      "lng": 72.93795,
+      "speedKmH": 89.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:52:53.368182Z",
+      "lat": 19.66188,
+      "lng": 72.94193,
+      "speedKmH": 97.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T02:57:53.368182Z",
+      "lat": 19.66731,
+      "lng": 72.9433,
+      "speedKmH": 87.7,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:02:53.368182Z",
+      "lat": 19.67172,
+      "lng": 72.94332,
+      "speedKmH": 97.9,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:07:53.368182Z",
+      "lat": 19.67752,
+      "lng": 72.94508,
+      "speedKmH": 96.8,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:12:53.368182Z",
+      "lat": 19.67924,
+      "lng": 72.94489,
+      "speedKmH": 86.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:17:53.368182Z",
+      "lat": 19.6869,
+      "lng": 72.94698,
+      "speedKmH": 85.0,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:22:53.368182Z",
+      "lat": 19.69104,
+      "lng": 72.94564,
+      "speedKmH": 91.2,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:27:53.368182Z",
+      "lat": 19.69566,
+      "lng": 72.94685,
+      "speedKmH": 89.6,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:32:53.368182Z",
+      "lat": 19.70025,
+      "lng": 72.9486,
+      "speedKmH": 96.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:37:53.368182Z",
+      "lat": 19.70639,
+      "lng": 72.94986,
+      "speedKmH": 91.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:42:53.368182Z",
+      "lat": 19.71265,
+      "lng": 72.95087,
+      "speedKmH": 85.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:47:53.368182Z",
+      "lat": 19.71781,
+      "lng": 72.95217,
+      "speedKmH": 94.0,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:52:53.368182Z",
+      "lat": 19.72193,
+      "lng": 72.95219,
+      "speedKmH": 95.5,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T03:57:53.368182Z",
+      "lat": 19.72582,
+      "lng": 72.95498,
+      "speedKmH": 93.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:02:53.368182Z",
+      "lat": 19.73255,
+      "lng": 72.95307,
+      "speedKmH": 95.1,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:07:53.368182Z",
+      "lat": 19.73453,
+      "lng": 72.9569,
+      "speedKmH": 92.0,
+      "roadType": "HIGHWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:12:53.368182Z",
+      "lat": 19.7361,
+      "lng": 72.96183,
+      "speedKmH": 88.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:17:53.368182Z",
+      "lat": 19.74122,
+      "lng": 72.9701,
+      "speedKmH": 91.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:22:53.368182Z",
+      "lat": 19.74348,
+      "lng": 72.97618,
+      "speedKmH": 95.7,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:27:53.368182Z",
+      "lat": 19.74267,
+      "lng": 72.98473,
+      "speedKmH": 86.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:32:53.368182Z",
+      "lat": 19.74637,
+      "lng": 72.99198,
+      "speedKmH": 86.5,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:37:53.368182Z",
+      "lat": 19.74692,
+      "lng": 72.99955,
+      "speedKmH": 86.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:42:53.368182Z",
+      "lat": 19.74989,
+      "lng": 73.00297,
+      "speedKmH": 96.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:47:53.368182Z",
+      "lat": 19.75203,
+      "lng": 73.01339,
+      "speedKmH": 96.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:52:53.368182Z",
+      "lat": 19.7524,
+      "lng": 73.02035,
+      "speedKmH": 110.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T04:57:53.368182Z",
+      "lat": 19.75563,
+      "lng": 73.02614,
+      "speedKmH": 98.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:02:53.368182Z",
+      "lat": 19.75658,
+      "lng": 73.03368,
+      "speedKmH": 99.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:07:53.368182Z",
+      "lat": 19.76113,
+      "lng": 73.04151,
+      "speedKmH": 87.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:12:53.368182Z",
+      "lat": 19.76178,
+      "lng": 73.0477,
+      "speedKmH": 85.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:17:53.368182Z",
+      "lat": 19.76589,
+      "lng": 73.05568,
+      "speedKmH": 94.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:22:53.368182Z",
+      "lat": 19.76656,
+      "lng": 73.06054,
+      "speedKmH": 86.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:27:53.368182Z",
+      "lat": 19.76841,
+      "lng": 73.06758,
+      "speedKmH": 86.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:32:53.368182Z",
+      "lat": 19.76897,
+      "lng": 73.07379,
+      "speedKmH": 98.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:37:53.368182Z",
+      "lat": 19.77382,
+      "lng": 73.08187,
+      "speedKmH": 99.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:42:53.368182Z",
+      "lat": 19.77252,
+      "lng": 73.08846,
+      "speedKmH": 99.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:47:53.368182Z",
+      "lat": 19.77751,
+      "lng": 73.09417,
+      "speedKmH": 85.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:52:53.368182Z",
+      "lat": 19.7794,
+      "lng": 73.10393,
+      "speedKmH": 98.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T05:57:53.368182Z",
+      "lat": 19.77979,
+      "lng": 73.10976,
+      "speedKmH": 94.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:02:53.368182Z",
+      "lat": 19.78398,
+      "lng": 73.11534,
+      "speedKmH": 88.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:07:53.368182Z",
+      "lat": 19.78491,
+      "lng": 73.12566,
+      "speedKmH": 98.7,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:12:53.368182Z",
+      "lat": 19.79575,
+      "lng": 73.13342,
+      "speedKmH": 112.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:17:53.368182Z",
+      "lat": 19.80567,
+      "lng": 73.14468,
+      "speedKmH": 100.7,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:22:53.368182Z",
+      "lat": 19.81432,
+      "lng": 73.15525,
+      "speedKmH": 110.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:27:53.368182Z",
+      "lat": 19.82286,
+      "lng": 73.16364,
+      "speedKmH": 103.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:32:53.368182Z",
+      "lat": 19.83209,
+      "lng": 73.17339,
+      "speedKmH": 102.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:37:53.368182Z",
+      "lat": 19.84519,
+      "lng": 73.18345,
+      "speedKmH": 111.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:42:53.368182Z",
+      "lat": 19.85346,
+      "lng": 73.19452,
+      "speedKmH": 111.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:47:53.368182Z",
+      "lat": 19.86468,
+      "lng": 73.20564,
+      "speedKmH": 114.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:52:53.368182Z",
+      "lat": 19.87353,
+      "lng": 73.21453,
+      "speedKmH": 109.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T06:57:53.368182Z",
+      "lat": 19.88424,
+      "lng": 73.22541,
+      "speedKmH": 101.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:02:53.368182Z",
+      "lat": 19.89599,
+      "lng": 73.23404,
+      "speedKmH": 108.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:07:53.368182Z",
+      "lat": 19.9059,
+      "lng": 73.24429,
+      "speedKmH": 110.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:12:53.368182Z",
+      "lat": 19.91249,
+      "lng": 73.25292,
+      "speedKmH": 110.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:17:53.368182Z",
+      "lat": 19.92548,
+      "lng": 73.26269,
+      "speedKmH": 104.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:22:53.368182Z",
+      "lat": 19.93341,
+      "lng": 73.27384,
+      "speedKmH": 110.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:27:53.368182Z",
+      "lat": 19.94543,
+      "lng": 73.2838,
+      "speedKmH": 105.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:32:53.368182Z",
+      "lat": 19.95354,
+      "lng": 73.29456,
+      "speedKmH": 110.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:37:53.368182Z",
+      "lat": 19.96589,
+      "lng": 73.30276,
+      "speedKmH": 114.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:42:53.368182Z",
+      "lat": 19.97529,
+      "lng": 73.31568,
+      "speedKmH": 111.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:47:53.368182Z",
+      "lat": 19.98573,
+      "lng": 73.32421,
+      "speedKmH": 111.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:52:53.368182Z",
+      "lat": 19.99359,
+      "lng": 73.33433,
+      "speedKmH": 105.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T07:57:53.368182Z",
+      "lat": 20.00526,
+      "lng": 73.34433,
+      "speedKmH": 111.1,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T08:02:53.368182Z",
+      "lat": 20.01383,
+      "lng": 73.35357,
+      "speedKmH": 105.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-16T08:07:53.368182Z",
+      "lat": 20.02545,
+      "lng": 73.36545,
+      "speedKmH": 114.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    }
+  ]
+}

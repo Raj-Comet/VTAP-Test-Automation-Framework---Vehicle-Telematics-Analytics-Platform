@@ -1,0 +1,21 @@
+{
+  "tripId": "truck_scenario1_adv_single_point",
+  "startCity": "Mumbai",
+  "endCity": "Delhi",
+  "startTimeUtc": "2024-03-16T12:00:00Z",
+  "vehicle": {
+    "vehicleId": "TRUCK_ADV4",
+    "vehicleType": "TRUCK",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-16T12:00:00Z",
+      "lat": 19.076,
+      "lng": 72.8777,
+      "speedKmH": 0,
+      "roadType": "CITY",
+      "status": "STOPPED"
+    }
+  ]
+}
