@@ -1,3 +1,0 @@
-# VTAP Test Automation Framework Dependencies
-# No external dependencies required - uses Python standard library only
-# Dependencies listed for reference and CI/CD clarity
