@@ -1,7 +1,8 @@
 """runner.py - Execute trips and detect bugs
 
 Runs each trip through trip_engine, compares against correct outputs,
-and identifies which bugs are triggered.
+and identifies which bugs are triggered. Produces comprehensive bug analysis
+with field-level deltas and pattern detection.
 """
 
 import json
@@ -10,6 +11,7 @@ import math
 from typing import Dict, List, Any, Tuple
 from datetime import datetime
 import trip_engine
+from vtap_utils import haversine_km, parse_ts
 
 
 # Constants and helpers
@@ -25,24 +27,6 @@ FUEL_THRESHOLD_MIN = 360
 GPS_JUMP_THRESHOLD_KM_PER_MIN = 5.0
 
 
-def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
-    """Calculate haversine distance between two points in km."""
-    R = 6371.0
-    phi1, phi2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlam = math.radians(lng2 - lng1)
-    a = (
-        math.sin(dphi / 2) ** 2
-        + math.cos(phi1) * math.cos(phi2) * math.sin(dlam / 2) ** 2
-    )
-    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-
-
-def _parse_ts(ts_str: str) -> datetime:
-    """Parse ISO 8601 UTC timestamp."""
-    return datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
-
-
 # Reference implementation - what trip_engine SHOULD produce
 class ExpectedOutputCalculator:
     """Calculate what trip_engine SHOULD produce (correct implementation)."""
@@ -54,7 +38,7 @@ class ExpectedOutputCalculator:
         """Compute correct KPI values per the specification."""
         
         # Sort timeline chronologically (engine does this)
-        timeline = sorted(self.trip["timeline"], key=lambda p: _parse_ts(p["ts"]))
+        timeline = sorted(self.trip["timeline"], key=lambda p: parse_ts(p["ts"]))
         
         # Calculate metrics
         total_distance_km = self._calc_total_distance(timeline)
@@ -107,7 +91,7 @@ class ExpectedOutputCalculator:
         for i in range(1, len(timeline)):
             prev = timeline[i - 1]
             curr = timeline[i]
-            seg_dist = _haversine_km(
+            seg_dist = haversine_km(
                 float(prev["lat"]), float(prev["lng"]),
                 float(curr["lat"]), float(curr["lng"]),
             )
@@ -124,7 +108,7 @@ class ExpectedOutputCalculator:
             curr = timeline[i]
             
             time_min = (
-                _parse_ts(curr["ts"]) - _parse_ts(prev["ts"])
+                parse_ts(curr["ts"]) - parse_ts(prev["ts"])
             ).total_seconds() / 60.0
             
             status = curr.get("status", "DRIVING").upper()
@@ -141,8 +125,8 @@ class ExpectedOutputCalculator:
         if len(timeline) < 2:
             return 0
         
-        t_start = _parse_ts(timeline[0]["ts"])
-        t_end = _parse_ts(timeline[-1]["ts"])
+        t_start = parse_ts(timeline[0]["ts"])
+        t_end = parse_ts(timeline[-1]["ts"])
         return round((t_end - t_start).total_seconds() / 60.0)
     
     def _calc_speeds(self, timeline: List[Dict]) -> Tuple[float, List[Dict]]:
@@ -221,14 +205,14 @@ class ExpectedOutputCalculator:
             prev = timeline[i - 1]
             curr = timeline[i]
             
-            dist = _haversine_km(
+            dist = haversine_km(
                 float(prev["lat"]), float(prev["lng"]),
                 float(curr["lat"]), float(curr["lng"]),
             )
             
             try:
                 time_min = (
-                    _parse_ts(curr["ts"]) - _parse_ts(prev["ts"])
+                    parse_ts(curr["ts"]) - parse_ts(prev["ts"])
                 ).total_seconds() / 60.0
                 
                 if time_min > 0 and dist / time_min > GPS_JUMP_THRESHOLD_KM_PER_MIN:

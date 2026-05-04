@@ -1,0 +1,173 @@
+{
+  "tripId": "truck_scenario1_boundary_bug3_trigger",
+  "startCity": "Jaipur",
+  "endCity": "Delhi",
+  "startTimeUtc": "2024-03-25T06:00:00+00:00Z",
+  "vehicle": {
+    "vehicleId": "TRUCK_BUG3",
+    "vehicleType": "TRUCK",
+    "fuelType": "DIESEL"
+  },
+  "timeline": [
+    {
+      "ts": "2024-03-25T06:00:00+00:00Z",
+      "lat": 26.0,
+      "lng": 77.0,
+      "speedKmH": 130.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:05:00+00:00Z",
+      "lat": 26.01,
+      "lng": 77.01,
+      "speedKmH": 100.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:10:00+00:00Z",
+      "lat": 26.02,
+      "lng": 77.02,
+      "speedKmH": 103.7,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:15:00+00:00Z",
+      "lat": 26.03,
+      "lng": 77.03,
+      "speedKmH": 112.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:20:00+00:00Z",
+      "lat": 26.04,
+      "lng": 77.04,
+      "speedKmH": 102.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:25:00+00:00Z",
+      "lat": 26.05,
+      "lng": 77.05,
+      "speedKmH": 115.5,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:30:00+00:00Z",
+      "lat": 26.06,
+      "lng": 77.06,
+      "speedKmH": 104.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:35:00+00:00Z",
+      "lat": 26.07,
+      "lng": 77.07,
+      "speedKmH": 100.2,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:40:00+00:00Z",
+      "lat": 26.08,
+      "lng": 77.08,
+      "speedKmH": 107.9,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:45:00+00:00Z",
+      "lat": 26.09,
+      "lng": 77.09,
+      "speedKmH": 103.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:50:00+00:00Z",
+      "lat": 26.1,
+      "lng": 77.1,
+      "speedKmH": 100.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T06:55:00+00:00Z",
+      "lat": 26.11,
+      "lng": 77.11,
+      "speedKmH": 105.0,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:00:00+00:00Z",
+      "lat": 26.12,
+      "lng": 77.12,
+      "speedKmH": 108.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:05:00+00:00Z",
+      "lat": 26.13,
+      "lng": 77.13,
+      "speedKmH": 103.5,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:10:00+00:00Z",
+      "lat": 26.14,
+      "lng": 77.14,
+      "speedKmH": 115.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:15:00+00:00Z",
+      "lat": 26.15,
+      "lng": 77.15,
+      "speedKmH": 105.4,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:20:00+00:00Z",
+      "lat": 26.16,
+      "lng": 77.16,
+      "speedKmH": 112.6,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:25:00+00:00Z",
+      "lat": 26.17,
+      "lng": 77.17,
+      "speedKmH": 106.3,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:30:00+00:00Z",
+      "lat": 26.18,
+      "lng": 77.18,
+      "speedKmH": 101.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    },
+    {
+      "ts": "2024-03-25T07:35:00+00:00Z",
+      "lat": 26.19,
+      "lng": 77.19,
+      "speedKmH": 107.8,
+      "roadType": "EXPRESSWAY",
+      "status": "DRIVING"
+    }
+  ]
+}

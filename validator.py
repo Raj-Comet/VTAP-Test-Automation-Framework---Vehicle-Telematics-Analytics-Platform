@@ -1,7 +1,7 @@
 """validator.py - Validate VTAP trip data before execution
 
 Checks generated trip JSON objects for schema, semantic, and logical errors.
-Provides detailed error messages for debugging.
+Provides detailed error messages for debugging with multi-layer validation.
 """
 
 import json
@@ -10,6 +10,7 @@ import math
 from typing import List, Dict, Any, Tuple
 from datetime import datetime, timedelta
 import trip_engine
+from vtap_utils import haversine_km, parse_ts
 
 
 # Validation constants
@@ -28,24 +29,6 @@ SPEED_LIMITS = {
 FOOD_RESTROOM_THRESHOLD_MIN = 240
 FUEL_THRESHOLD_MIN = 360
 GPS_JUMP_THRESHOLD_KM_PER_MIN = 5.0
-
-
-def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
-    """Calculate haversine distance between two points in km."""
-    R = 6371.0
-    phi1, phi2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlam = math.radians(lng2 - lng1)
-    a = (
-        math.sin(dphi / 2) ** 2
-        + math.cos(phi1) * math.cos(phi2) * math.sin(dlam / 2) ** 2
-    )
-    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
-
-
-def _parse_ts(ts_str: str) -> datetime:
-    """Parse ISO 8601 UTC timestamp."""
-    return datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
 
 
 # Trip validation logic
@@ -153,7 +136,7 @@ class TripValidator:
                 continue
             
             try:
-                ts = _parse_ts(ts_str)
+                ts = parse_ts(ts_str)
             except (ValueError, TypeError) as e:
                 self.errors.append(f"[TIME] timeline[{i}].ts='{ts_str}' cannot be parsed: {e}")
                 continue
@@ -172,10 +155,10 @@ class TripValidator:
         # Check time gaps
         if len(timeline) > 1:
             try:
-                first_ts = _parse_ts(timeline[0]["ts"])
+                first_ts = parse_ts(timeline[0]["ts"])
                 for i in range(1, len(timeline)):
-                    prev_ts = _parse_ts(timeline[i - 1]["ts"])
-                    curr_ts = _parse_ts(timeline[i]["ts"])
+                    prev_ts = parse_ts(timeline[i - 1]["ts"])
+                    curr_ts = parse_ts(timeline[i]["ts"])
                     gap_min = (curr_ts - prev_ts).total_seconds() / 60.0
                     
                     if gap_min > 60:
@@ -237,10 +220,10 @@ class TripValidator:
                 
                 lat1, lng1 = float(prev["lat"]), float(prev["lng"])
                 lat2, lng2 = float(curr["lat"]), float(curr["lng"])
-                dist_km = _haversine_km(lat1, lng1, lat2, lng2)
+                dist_km = haversine_km(lat1, lng1, lat2, lng2)
                 
-                ts1 = _parse_ts(prev["ts"])
-                ts2 = _parse_ts(curr["ts"])
+                ts1 = parse_ts(prev["ts"])
+                ts2 = parse_ts(curr["ts"])
                 time_min = (ts2 - ts1).total_seconds() / 60.0
                 
                 if time_min > 0:
@@ -328,8 +311,8 @@ class DatasetValidator:
                 try:
                     tl = trip.get("timeline", [])
                     if len(tl) >= 2:
-                        t_start = _parse_ts(tl[0]["ts"])
-                        t_end = _parse_ts(tl[-1]["ts"])
+                        t_start = parse_ts(tl[0]["ts"])
+                        t_end = parse_ts(tl[-1]["ts"])
                         dur_min = (t_end - t_start).total_seconds() / 60.0
                         durations.append(dur_min)
                 except Exception:
@@ -342,9 +325,13 @@ class DatasetValidator:
                 has_over_240 = any(d >= 240 for d in durations)
                 
                 if not has_sub_240:
-                    self.findings.append(f"[BOUNDARY] Scenario 1: No trips near 240-min threshold (below). Found durations: {min(d for d in durations if d < 240 if durations):.0f} to {max(d for d in durations if d < 240 if durations):.0f} min")
+                    sub_240 = [d for d in durations if d < 240]
+                    if sub_240:
+                        self.findings.append(f"[BOUNDARY] Scenario 1: No trips near 240-min threshold (below). Found durations: {min(sub_240):.0f} to {max(sub_240):.0f} min")
                 if not has_over_240:
-                    self.findings.append(f"[BOUNDARY] Scenario 1: No trips near 240-min threshold (above). Found durations: {min(d for d in durations if d >= 240 if [d for d in durations if d >= 240]):.0f} to {max(d for d in durations if d >= 240 if [d for d in durations if d >= 240]):.0f} min")
+                    over_240 = [d for d in durations if d >= 240]
+                    if over_240:
+                        self.findings.append(f"[BOUNDARY] Scenario 1: No trips near 240-min threshold (above). Found durations: {min(over_240):.0f} to {max(over_240):.0f} min")
     
     def _check_redundancy(self) -> None:
         """Detect near-identical trips using simple similarity metric."""
@@ -363,8 +350,8 @@ class DatasetValidator:
                     if len(tl_a) < 2 or len(tl_b) < 2:
                         continue
                     
-                    dur_a = (_parse_ts(tl_a[-1]["ts"]) - _parse_ts(tl_a[0]["ts"])).total_seconds() / 60.0
-                    dur_b = (_parse_ts(tl_b[-1]["ts"]) - _parse_ts(tl_b[0]["ts"])).total_seconds() / 60.0
+                    dur_a = (parse_ts(tl_a[-1]["ts"]) - parse_ts(tl_a[0]["ts"])).total_seconds() / 60.0
+                    dur_b = (parse_ts(tl_b[-1]["ts"]) - parse_ts(tl_b[0]["ts"])).total_seconds() / 60.0
                     
                     vtype_a = trip_a.get("vehicle", {}).get("vehicleType", "")
                     vtype_b = trip_b.get("vehicle", {}).get("vehicleType", "")
@@ -404,8 +391,8 @@ class DatasetValidator:
                 for i in range(1, len(tl)):
                     prev = tl[i - 1]
                     curr = tl[i]
-                    dist = _haversine_km(float(prev["lat"]), float(prev["lng"]), float(curr["lat"]), float(curr["lng"]))
-                    time_min = (_parse_ts(curr["ts"]) - _parse_ts(prev["ts"])).total_seconds() / 60.0
+                    dist = haversine_km(float(prev["lat"]), float(prev["lng"]), float(curr["lat"]), float(curr["lng"]))
+                    time_min = (parse_ts(curr["ts"]) - parse_ts(prev["ts"])).total_seconds() / 60.0
                     if time_min > 0 and dist / time_min > GPS_JUMP_THRESHOLD_KM_PER_MIN:
                         gps_anomalies += 1
             except Exception:

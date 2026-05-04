@@ -2,7 +2,7 @@
   "tripId": "bus_scenario2_adv_out_of_order",
   "startCity": "Bengaluru",
   "endCity": "Bengaluru",
-  "startTimeUtc": "2024-03-18T08:00:00Z",
+  "startTimeUtc": "2024-03-23T14:00:00+00:00Z",
   "vehicle": {
     "vehicleId": "BUS_ADV_OOO",
     "vehicleType": "BUS",
@@ -10,7 +10,7 @@
   },
   "timeline": [
     {
-      "ts": "2024-03-18T08:10:00Z",
+      "ts": "2024-03-23T14:10:00+00:00Z",
       "lat": 12.9716,
       "lng": 77.5946,
       "speedKmH": 30,
@@ -18,7 +18,7 @@
       "status": "DRIVING"
     },
     {
-      "ts": "2024-03-18T08:05:00Z",
+      "ts": "2024-03-23T14:05:00+00:00Z",
       "lat": 12.98,
       "lng": 77.6,
       "speedKmH": 40,
