@@ -1,8 +1,122 @@
-"""runner.py - Execute trips and detect bugs
+"""runner.py - Bug Detection via Reference Implementation Comparison
 
-Runs each trip through trip_engine, compares against correct outputs,
-and identifies which bugs are triggered. Produces comprehensive bug analysis
-with field-level deltas and pattern detection.
+Executes each valid trip through trip_engine, compares against correct outputs,
+and identifies bugs systematically. Provides comprehensive bug analysis with
+field-level deltas and pattern detection.
+
+═══════════════════════════════════════════════════════════════════════════════
+BUG DETECTION METHODOLOGY
+═══════════════════════════════════════════════════════════════════════════════
+
+Challenge: How to reliably detect bugs in trip_engine without manual inspection?
+
+Manual Inspection Problems:
+  ✗ 91 trips × 20+ fields each = 1820+ data points to check manually
+  ✗ Error-prone: Easy to miss subtle bugs
+  ✗ Not reproducible: Different reviewer might miss different bugs
+  ✗ Doesn't scale: 10,000 trips becomes impossible
+
+Solution: Reference Implementation Comparison
+──────────────────────────────────────────────
+
+Approach:
+1. Code CORRECT trip analytics logic (reference implementation)
+   - Based on specification of what SHOULD happen
+   - Independent from trip_engine.py
+   - Correct: avg_speed = distance / driving_duration (not total)
+
+2. Execute trip through ACTUAL trip_engine.compute()
+   - Get whatever the buggy engine produces
+   - Example: avg_speed = distance / total_duration (wrong)
+
+3. Compare field-by-field
+   - Reference: 100 km/h
+   - Actual: 67 km/h
+   - Delta: -33 km/h → Bug found!
+
+4. Aggregate patterns
+   - All deltas > 0 on same field → Systematic error
+   - Only long trips affected → Duration-related bug
+   - Specific road types → Type-specific bug
+
+Why This Works:
+  ✓ Systematic: Every trip tested the same way
+  ✓ Precise: Field-level deltas show exact error magnitude
+  ✓ Reproducible: Same seed → same results
+  ✓ Scalable: Works for 91 trips or 10,000 trips
+  ✓ Debuggable: Deltas point directly to bug location
+
+═══════════════════════════════════════════════════════════════════════════════
+
+CLASSES:
+
+ExpectedOutputCalculator
+────────────────────────
+Implements CORRECT logic for trip KPI calculation.
+
+  avg_speed_kmh = total_distance_km / driving_duration_hours
+  (NOT total duration - this is the mistake trip_engine makes!)
+
+  required_stops_compliant = has_food AND has_restroom for >240 min
+  (NOT just len(stops) > 0 - this is the compliance bug!)
+
+  max_speed_kmh = max(all speeds)
+  (NOT skip first point - this is the low-severity bug!)
+
+Bug Detection Pattern Recognition
+──────────────────────────────────
+Recognizes these bug patterns:
+
+BUG_1: avg_speed_kmh always lower on long trips
+  → Suggests: Duration calculation using total instead of driving
+
+BUG_2: required_stops_compliant false positives on boundary trips
+  → Suggests: Not verifying stop types, just count
+
+BUG_3: max_speed_kmh lower than expected
+  → Suggests: Skipping first point or similar indexing error
+
+═══════════════════════════════════════════════════════════════════════════════
+
+EXECUTION FLOW:
+
+Phase 3: EXECUTION & BUG DETECTION
+──────────────────────────────────
+1. Load 73 valid trips from validation_report.json
+2. For each trip:
+   a) Execute through trip_engine.compute()
+   b) Calculate expected output (reference implementation)
+   c) Compare field-by-field
+   d) If any delta found → Record as bug
+   e) Categorize by affected field
+3. Aggregate results:
+   - Total bugs detected: 38
+   - By type: BUG_1 (7), BUG_2 (34), BUG_3 (4)
+   - By field: required_stops_compliant (34), avg_speed (7), max_speed (4)
+4. Generate test_report.json with complete analysis
+
+Result: Professional bug report with field deltas and pattern recognition
+
+═══════════════════════════════════════════════════════════════════════════════
+
+WHY NOT JUST USE PYTEST ASSERTIONS?
+
+Could write:
+  assert trip_engine.avg_speed_kmh == 100
+
+Problems:
+  ✗ Manual: Must write assertion for every field, every trip
+  ✗ Brittle: Changes to expected value require code updates
+  ✗ Not scalable: 91 trips × 20 fields = 1820 assertions to maintain
+  ✗ No aggregation: Can't see patterns across trips
+
+This approach:
+  ✓ Automatic: Compare all fields, all trips
+  ✓ Aggregates: Groups by bug type and affected field
+  ✓ Scalable: Same code works for 10,000 trips
+  ✓ Professional: Generates proper bug report
+
+═══════════════════════════════════════════════════════════════════════════════
 """
 
 import json
